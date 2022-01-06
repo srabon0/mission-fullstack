@@ -1,0 +1,66 @@
+/*Stylesheet for mission fullstack dev*/
+/*Author Srabon*/
+body{
+    margin: 0;
+    font-family: 'IBM Plex Serif', serif;
+}
+.top-section{
+    display: flex;
+}
+.dev-msg{
+    margin: 5%;
+    width: 40%;
+}
+.headers{
+    border-left: 5px solid transparent;
+    border-image: linear-gradient(45deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border-image-slice: 1;
+}
+.top-header {
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+.top-second-header{
+    color:#6D3F9A;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.dev-msg p{
+    text-align: justify;
+    font-size: 17px;
+    
+    margin-bottom: 30px;
+}
+.top-img {
+    width: 40%;
+    margin: 0% 5%;
+}
+.top-img img{
+    width: 70%;
+
+}
+.button{
+    height: 30px;
+    width: 150px;
+    padding: 5px;
+    background-color:#6D3F9A;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.button a{
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.mid-head{
+    text-align: center;
+    
+}
+#mid-head-span{
+    color:#6D3F9A;
+}
