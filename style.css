@@ -88,7 +88,7 @@ body{
     background-color: #AEB6BF;
 }
 #box2{
-    background-color: #D5D8DC;
+    background-color:#C39BD3;
 }
 #box3{
     background-color: #85C1E9;
@@ -130,4 +130,19 @@ body{
     background-position: bottom;
     background-position-x:970px;
 }
-.details-section
+.footer{
+    background-color: rgb(12, 12, 12);
+    padding: 5px;
+    text-align: center;
+    height: 150px;
+}
+.footer-section h1{
+    font-size: 45px;
+    color: mintcream;
+}
+.footer-section p{
+    font-style: bolder;
+    font-size: 16px;
+    margin-top: -15px;
+    color: mintcream;
+}
