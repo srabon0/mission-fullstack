@@ -37,10 +37,12 @@ body{
 }
 .top-img {
     width: 50%;
-    margin: 0% 5%;
+
+    margin: 8% 5%;
 }
 .top-img img{
     width: 70%;
+    border-radius: 15px;
 
 }
 .button{
@@ -59,6 +61,10 @@ body{
     font-size: 17px;
     font-weight: 600;
 }
+.button:hover{
+    background-color: #FE4E43;
+}
+
 #mid-head{
     text-align: center;
     
@@ -76,6 +82,7 @@ body{
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 50px;
+    box-shadow: 10px 10px 10px gray;
 }
 .section-box-image img {
     width:40%;
@@ -130,6 +137,8 @@ body{
     background-position: bottom;
     background-position-x:970px;
 }
+
+
 .footer{
     background-color: rgb(12, 12, 12);
     padding: 5px;
@@ -145,4 +154,55 @@ body{
     font-size: 16px;
     margin-top: -15px;
     color: mintcream;
+}
+.skill {
+    display: flex;
+    box-shadow: 5px 10px 5px gray;
+    width:100%;
+    margin: 1% 5%;
+    height: 150px;
+    border-radius: 5px;
+    background-color: #CACFD2;
+}
+.last-section{
+    display: flex;
+    width: 90%;
+}
+.last-header{
+    width: 45%;
+    margin: 2%;
+}
+.last-header img{
+    width: 100%;
+}
+.skill-section{
+    width: 45%;
+    margin: 2%;
+
+}
+.icon{
+    width:150px;
+    margin: 40px 20px;
+    
+}
+.icon img{
+    width: 70%;
+}
+hr{
+    padding: 1%;
+    background-color: #5DADE2;
+}
+#html{
+    color: #EC7063;
+}
+#css{
+    color:#138D75
+}
+#js{
+    color:#9543FE;
+}
+
+#python{
+   color: #28B463;
+    
 }
